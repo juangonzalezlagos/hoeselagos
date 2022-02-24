@@ -202,8 +202,6 @@ a {
     padding-bottom: 20px;
 }
 
-
-
 /*fin video de finanzas*/
 
 /* Inicio contenedores casa y alquiler*/
@@ -301,7 +299,13 @@ section div p {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1rem;
     font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
+
+/*Negocios seguros generales*/
+
+
 
 /*Negocios inmobiliarios*/
 
@@ -326,6 +330,25 @@ section div p {
 .imgGrid {
     height: auto;
     width: 20vw;
+}
+
+.mainContacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formularioContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagenContacto{
+    border-radius: 20px;
+}
+
+.footer{
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 630px) {
