@@ -16,16 +16,21 @@ header :hover {
     background-color: #008A78;
     text-align: center;
     font-size: 1.2rem;
+
+    ul li {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+
+    a {
+        color: lavenderblush;
+        text-decoration: none;
+        margin: 20px;
+    }
 }
 
-ul li {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-}
 
-a {
-    color: lavenderblush;
-    text-decoration: none;
-    margin: 20px;
-}
+
+
+

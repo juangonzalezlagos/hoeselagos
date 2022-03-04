@@ -19,13 +19,13 @@ header :hover {
   font-size: 1.2rem;
 }
 
-ul li {
+.navegacion ul li {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-a {
+.navegacion a {
   color: lavenderblush;
   text-decoration: none;
   margin: 20px;
