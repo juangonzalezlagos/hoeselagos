@@ -1,16 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*portada*/
 
 .imgPortada {
     width: 100%;
 }
 
-/* fin portada*/
 
 /*inicio nav*/
 
@@ -124,21 +117,8 @@ a {
     border: solid 5px #ffffff;
 }
 
-/*
-.card_fondo {
-    position: absolute;
-    background-color:#d8d8d8;
-    height: 10rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-
 .card_img {
     width: 100%;
-    /*clip-path: circle(60px at center);*/
-    /*clip-path: circle(43.7% at 51% 44%);*/
     margin-top: 2rem;
 }
 
@@ -167,74 +147,9 @@ a {
 
 /*fin card empresas*/
 
-/* Presentacion videos finanzas*/
-
-.finanzas {
-    background-color: #000000;
-}
-
-/*.contenedor__PresentacionFinanzas {
-    background-color: rgb(238, 237, 237);
-}*/
-
-.PresentacionFinanzas {
-    text-align: center;
-    color: rgb(248, 248, 248);
-    font-size: 1.8rem;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    padding-top: 50px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.PresentacionFinanzas__subtexto {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    margin: 10px 80px 20px 80px;
-    color: #c7c7c7;
-    font-weight: 500;
-    padding-bottom: 50px;
-}
-
-.PresentacionFp {
-    background-color: #000000;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    column-gap: 50px;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-bottom: 20px;
-}
-
-/*fin video de finanzas*/
-
-/* Inicio contenedores casa y alquiler*/
-
-
-
-/*fin section casa y alquiler*/
-
-
-
-
 /*Negocios seguros generales*/
 
-.mainContacto{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.formularioContacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.imagenContacto{
-    border-radius: 20px;
-}
 
 
 
@@ -247,6 +162,6 @@ a {
 @media screen and (max-width: 630px) {
     .imgGrid {
         width: auto;
-        height: 200px;        
+        height: 200px;
     }
 }

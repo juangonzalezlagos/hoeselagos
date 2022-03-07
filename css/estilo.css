@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .imgPortada {
   width: 100%; }
 
@@ -64,6 +69,7 @@ header :hover {
 .footer {
   align-items: flex-end; }
 
+/*inicio negocios inmobiliarios*/
 .sectionGrid {
   display: flex;
   margin-top: 30px;
@@ -80,17 +86,19 @@ header :hover {
     margin-top: 30px;
     border-radius: 20px; }
 
+/*inicio paseos virtuales*/
 .negociosInmobiliarios {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2rem;
   margin-top: 100px; }
-  .negociosInmobiliarios .negociosInmobiliarios__parrafo {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    margin-bottom: 50px; }
+
+.negociosInmobiliarios__parrafo {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 50px; }
 
 .contenedorPropiedades {
   border: 10px solid #eeeded;
@@ -144,3 +152,44 @@ section div h3 {
 
 section div p {
   padding-top: 10px; }
+
+/* inicio finanzas */
+.finanzas {
+  background-color: #000000; }
+  .finanzas .PresentacionFinanzas__subtexto {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 80px 20px 80px;
+    color: #c7c7c7;
+    font-weight: 500;
+    padding-bottom: 50px; }
+  .finanzas .PresentacionFinanzas {
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-family: 'Roboto Condensed', sans-serif; }
+  .finanzas .PresentacionFp {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    column-gap: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 20px; }
+
+/*contacto*/
+.mainContacto {
+  display: flex;
+  justify-content: space-evenly; }
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.imagenContacto {
+  border-radius: 20px; }
