@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.imgPortada {
+  width: 100%; }
+
+header :hover {
+  color: #929292; }
+
+.navegacion {
+  background-color: #008A78;
+  text-align: center;
+  font-size: 1.2rem; }
+  .navegacion ul li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+    .navegacion ul li a {
+      color: lavenderblush;
+      text-decoration: none;
+      margin: 20px;
+      font-family: 'Roboto Condensed', sans-serif; }
+    .navegacion ul li .contactoActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+    .navegacion ul li .indexActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+    .navegacion ul li .negociosActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+    .navegacion ul li .paseosActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+    .navegacion ul li .propiedadesActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+    .navegacion ul li .segurosActivo {
+      color: #3d3d3d;
+      font-weight: 700; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondofooter {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  background-color: #444444;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  color: azure;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 20px; }
+
+.footer {
+  align-items: flex-end; }
+
+.sectionGrid {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Roboto Condensed', sans-serif; }
+  .sectionGrid .divCard {
+    padding: 20px;
+    text-align: center; }
+    .sectionGrid .divCard .imgGrid {
+      height: auto;
+      width: 20vw; }
+  .sectionGrid .divCard img {
+    margin-top: 30px;
+    border-radius: 20px; }

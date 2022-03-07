@@ -1,0 +1,25 @@
+@import "_header";
+@import "_footer";
+
+
+.sectionGrid {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    .divCard {
+        padding: 20px;
+        text-align: center;
+
+        .imgGrid {
+            height: auto;
+            width: 20vw;
+        }
+    }
+    .divCard img {
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}

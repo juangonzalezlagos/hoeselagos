@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgPortada {
+    width: 100%;
+}
+
+header :hover {
+    color: #929292;
+}
+
+.navegacion {
+    background-color: #008A78;
+    text-align: center;
+    font-size: 1.2rem;
+    ul li {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        a {
+            color: lavenderblush;
+            text-decoration: none;
+            margin: 20px;
+            font-family: 'Roboto Condensed', sans-serif;            
+        }
+        .contactoActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+        .indexActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+        
+        .negociosActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+        
+        .paseosActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+        
+        .propiedadesActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+        
+        .segurosActivo {
+            color: rgb(61, 61, 61);
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
