@@ -13,7 +13,7 @@ header :hover {
 }
 
 .navegacion {
-    background-color: #008A78;
+    background-color: $verdeclaro;
     text-align: center;
     font-size: 1.2rem;
     ul li {
@@ -27,31 +27,31 @@ header :hover {
             font-family: 'Roboto Condensed', sans-serif;            
         }
         .contactoActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
         .indexActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
         
         .negociosActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
         
         .paseosActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
         
         .propiedadesActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
         
         .segurosActivo {
-            color: rgb(61, 61, 61);
+            color: $botonactivo;
             font-weight: 700;
         }
     }

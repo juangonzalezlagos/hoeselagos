@@ -101,7 +101,7 @@ header :hover {
   margin-bottom: 50px; }
 
 .contenedorPropiedades {
-  border: 10px solid #eeeded;
+  border: 10px solid #ececec;
   display: grid;
   grid-column: 1fr 1fr;
   display: -ms-grid;
