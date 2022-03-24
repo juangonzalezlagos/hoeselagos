@@ -8,6 +8,83 @@
 @import "_header";
 @import "_footer";
 
+
+#tituloPrincipal {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 50px;
+    color: #4b4b4b;
+}
+
+#presentacionEmpresa {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #6b6a6a;
+    line-height: 25px;
+}
+
+/*inicio cards empresas */
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 50px;
+}
+
+.container__card {
+
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 1px #818181;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.25rem;
+}
+
+.container__card:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: solid 5px #ffffff;
+}
+
+.card_img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #003F32;
+}
+
+.card__texto {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f3e1e1;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: #008A78;
+    border-radius: 15px;
+    width: 55%;
+}
+
 /*inicio negocios inmobiliarios*/
 
 .sectionGrid {
@@ -38,7 +115,7 @@
 .negociosInmobiliarios {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 100px;
 }
 
@@ -115,6 +192,17 @@ section div p {
     padding-top: 10px;
 }
 
+/* propiedades en venta */
+
+#carouselExampleControls {
+    margin-left: 20%;
+    margin-right: 20%;    
+}
+
+.bodyProp{
+    background-color: #f8f8f8;
+}
+
 /* inicio finanzas */
 
 .finanzas {
@@ -133,7 +221,7 @@ section div p {
     .PresentacionFinanzas {
         text-align: center;
         color: rgb(248, 248, 248);
-        font-size: 1.8rem;        
+        font-size: 1.8rem;
         margin-bottom: 40px;
         padding-top: 50px;
         font-family: 'Roboto Condensed', sans-serif;
@@ -163,6 +251,7 @@ section div p {
     justify-content: center;
 }
 
-.imagenContacto {
-    border-radius: 20px;
+.mainContacto{
+    background-image: url(../images/img-contacto.png);
 }
+
