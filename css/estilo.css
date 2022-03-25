@@ -46,6 +46,9 @@ header :hover {
       color: #3d3d3d;
       font-weight: 700; }
 
+a {
+  font-family: 'Roboto Condensed', sans-serif; }
+
 * {
   margin: 0;
   padding: 0;
@@ -61,7 +64,7 @@ header :hover {
   padding: 10px 10px 10px 10px;
   color: azure;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 100;
   margin-bottom: 0px;
   margin-top: 20px; }
@@ -133,23 +136,6 @@ header :hover {
   background-color: #008A78;
   border-radius: 15px;
   width: 55%; }
-
-/*inicio negocios inmobiliarios*/
-.sectionGrid {
-  display: flex;
-  margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-family: 'Roboto Condensed', sans-serif; }
-  .sectionGrid .divCard {
-    padding: 20px;
-    text-align: center; }
-    .sectionGrid .divCard .imgGrid {
-      height: auto;
-      width: 20vw; }
-  .sectionGrid .divCard img {
-    margin-top: 30px;
-    border-radius: 20px; }
 
 /*inicio paseos virtuales*/
 .negociosInmobiliarios {
@@ -254,6 +240,12 @@ section div p {
     margin-left: 5%;
     padding-bottom: 20px; }
 
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size-adjust: auto; }
+
 /*contacto*/
 .mainContacto {
   display: flex;
@@ -266,3 +258,12 @@ section div p {
 
 .mainContacto {
   background-image: url(../images/img-contacto.png); }
+
+@media screen and (max-width: 630px) {
+  .sectionGrid {
+    display: inline-block; } }
+
+@media screen and (max-width: 630px) {
+  .imgGrid {
+    width: auto;
+    height: 200px; } }

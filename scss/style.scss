@@ -85,31 +85,6 @@
     width: 55%;
 }
 
-/*inicio negocios inmobiliarios*/
-
-.sectionGrid {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Roboto Condensed', sans-serif;
-
-    .divCard {
-        padding: 20px;
-        text-align: center;
-
-        .imgGrid {
-            height: auto;
-            width: 20vw;
-        }
-    }
-
-    .divCard img {
-        margin-top: 30px;
-        border-radius: 20px;
-    }
-}
-
 /*inicio paseos virtuales*/
 
 .negociosInmobiliarios {
@@ -151,7 +126,6 @@
         padding-left: 20px;
         padding-right: 20px;
         font-family: 'Roboto Condensed', sans-serif;
-
     }
 
     .contenedorAlquiler {
@@ -173,8 +147,6 @@ section div h3 {
     background-color: white;
     border-radius: 20px;
 }
-
-
 
 .imagenes {
     border-radius: 20px;
@@ -239,6 +211,13 @@ section div p {
     }
 }
 
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size-adjust: auto;
+}
+
 /*contacto*/
 .mainContacto {
     display: flex;
@@ -255,3 +234,15 @@ section div p {
     background-image: url(../images/img-contacto.png);
 }
 
+@media screen and (max-width: 630px) {
+    .sectionGrid {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .imgGrid {
+        width: auto;
+        height: 200px;
+    }
+}
