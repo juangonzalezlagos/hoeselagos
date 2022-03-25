@@ -242,7 +242,7 @@ section div p {
     margin-left: 5%;
     padding-bottom: 20px; }
 
-.container-fluid {
+.container-sm {
   display: flex;
   justify-content: center;
   align-items: center;
